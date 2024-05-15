@@ -16,4 +16,9 @@ document.write("This is going to be an example of how I can"
 var B = "Concatenated" + " String"
 document.write(B)
 
+var Characters = "The Avengers", Tony_Stark = "Iron Man", Steve_Rogers = "Captain America",
+Bruce_Banner = "Hulk", Clint_Barton =
+"Hawkeye";
+document.write (Tony_Stark);
+
 

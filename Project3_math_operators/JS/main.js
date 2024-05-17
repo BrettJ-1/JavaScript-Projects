@@ -32,9 +32,14 @@ function Modulus_Operator() {
     document.getElementById("Math").innerHTML = "When you divide 25 by 6 you have a remainder of: " + Simple_Math; //Retreiving Modulus Number//
 }
 
-function Negation_Operator () {
+function Negation_Operator() {
     var x = 8;
-    document.getElementById ("Math").innerHTML = -x; //Retrieving Negation Operator//
+    document.getElementById("Math").innerHTML = -x; //Retrieving Negation Operator//
+}
+
+function Round() {
+    var x = 8.8
+    document.getElementById("Round").innerHTML = Math.round(8.8); //Rounding a Number Up//
 }
 
 var X = 7;
@@ -45,6 +50,5 @@ var Y = 4;
 Y--;
 document.write(Y); //Using Decrement//
 
-window.alert (Math.random () * 999); //Alert Window with Random Number through 999//
+window.alert(Math.random() * 999); //Alert Window with Random Number through 999//
 
-document.getElementById("Round").innerHTML = Math.round(8.8); //Rounding a Number Up//

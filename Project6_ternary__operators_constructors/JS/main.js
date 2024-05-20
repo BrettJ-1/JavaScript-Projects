@@ -19,13 +19,13 @@ function Vehicle(Make, Model, Year, Color, Interior) { //Creating Object Constru
     this.Vehicle_Color = Color;
     this.Vehicle_Keyword = Interior;
 }
-var Jack = new Vehicle("Dodge", "Viper", 2020, "Red", "Cloth"); //Creating Keywords//
-var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black", "Cloth");
-var Erik = new Vehicle("Ford", "Pinto", 1971, "Mustard", "Cloth");
+var Jack = new Vehicle("Dodge", "Viper", 2020, "Red"); //Creating Keywords//
+var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
+var Erik = new Vehicle("Ford", "Pinto", 1971, "Mustard");
 function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML =
-        "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model + " manufactured in " + Erik.Vehicle_Year + "with a" + Vehicle_Keyword + "interior";
-} //Code won't function properly due to Reserved Keyword under Vehicle_Keyword, but when removed will//
+        "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model + " manufactured in " + Erik.Vehicle_Year;
+} 
 
 function Oceans(west, east, north, south) { //Creating Object Constructors//
     this.Pacific = west;

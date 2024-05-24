@@ -1,0 +1,75 @@
+#menuBG { /*Positioned page to center*/
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu { /*Positioned button to center*/
+    width: 400px;
+    height: 200px;
+}
+
+#totalPrice { /*Positioned total pizza price to left*/
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: left;
+}
+
+.left { /*Positoned pizza sizes to left*/
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+
+.middle { /*Positoned pizza toppings to middle*/
+    width: 200px;
+    height: 200px;
+    float: center;
+}
+
+.right { /*Positoned pizza sizes to left*/
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#showText { /*Positoned pizza vegetables to right*/
+    width: 250px;
+    height: 250px;
+    margin: Opx auto;
+    float: left;
+}
+
+#cart { /*Positioned pizza cart*/
+    top: 0;
+    margin: Opx auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder { /*Changed button properties*/
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(254, 233, 204);
+}
+
+body { /*Changed background color*/
+    background-color: rgb(231, 39, 39);
+}
+
+h1 { /*Changed h1 font and color*/
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(254, 233, 204);
+}
+
+h3 { /*Changed h3 font and color*/
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(254, 233, 204);
+}
+
+div { /*Changed div font and color*/
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(254, 233, 204);
+}

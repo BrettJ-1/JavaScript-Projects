@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <p>How many seconds would you like to set your alarm for?</p>
+    <p style="font-size:2vw;">How many seconds would you like to set your alarm for?</p>
     <input id="seconds" value="" />
     <button onclick="countdown () ">Click here</button>
     <p id="timer"></p>
@@ -48,5 +48,11 @@
     <script src="JS/main.js"></script>
 
 </body>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        document.body.classList.remove('fade-out');
+    });
+</script>
 
 </html>

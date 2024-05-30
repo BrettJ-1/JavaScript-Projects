@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+</body>
+
+<script>
+    var obj = { "name": "John", "age": 30, "city": "New York" };
+    var myJSON = JSON.stringify(obj);
+    document.getElementById("demo").innerHTML = myJSON;
+
+    var obj = JSON.parse('{"firstName":"John", "lastName":"Doe"}');
+
+    document.getElementById("demo").innerHTML = obj.firstName;
+
+    localStorage.setItem("lastname", "Smith");
+
+    document.getElementById("demo").innerHTML = localStorage.getItem("lastname");
+</script>
+</script>
+
+</html>
